@@ -36,7 +36,7 @@ const stats = [
 const TopStats = () => (
     <div className="flex flex-wrap gap-10 mt-4">
         {stats.map((stat, index) => (
-            <div key={index} className="flex flex-col justify-center items-center text-center gap-1 bg-white rounded-xl shadow w-[150px] h-[160px]
+            <div key={index} className="flex flex-col justify-center items-center text-center gap-1 bg-white rounded-xl shadow w-[30%] h-[150px]
 ">
                 <div>
                     <img

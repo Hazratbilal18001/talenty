@@ -42,7 +42,7 @@ const UserOverview = () => (
         <div>
             <div className="flex flex-wrap justify-start gap-4 pt-6 rounded-lg font-source text-sm">
                 {/* Main Chart */}
-                <div className="md:w-[500px] h-[488px] bg-white rounded-xl p-4 shadow">
+                <div className="md:w-[630px] h-[488px] bg-white rounded-xl p-4 shadow">
                     <div className='flex justify-between'>
                         <h2 className="font-semibold text-sm mb-2">Datos: Like vs. Dislike</h2>
                         <h2 className='text-[#ADADAD] text-sm font-light'>Dato Mensual</h2>
@@ -109,7 +109,7 @@ const UserOverview = () => (
                             <h2 className="text-sm font-semibold ">Usuarios por estado</h2>
                             <BsThreeDotsVertical />
                         </div>
-                        <div className="flex-1 flex items-center justify-center">
+                        <div className="flex justify-start ">
                             <NuevosUsuariosChart />
                         </div>
                     </div>
@@ -127,9 +127,9 @@ const UserOverview = () => (
 
             </div>
 
-            <div className='flex flex-wrap gap-8 pt-5'>
+            <div className='flex flex-wrap pt-5 gap-8'>
                 {/* 1st */}
-                <div className="md:w-[50%] h-[288px] bg-white rounded-xl p-4 shadow">
+                <div className="w-full md:w-[48%] bg-white rounded-xl p-4 shadow">
                     <div className='flex justify-between'>
                         <h2 className="font-semibold text-sm mb-2">Promedio de tiempo de uso de la app</h2>
                         <h2 className='text-[#ADADAD] text-sm font-light'>Dato Mensual</h2>
@@ -139,7 +139,7 @@ const UserOverview = () => (
                 </div>
 
                 {/* 2nd */}
-                <div className="md:w-[50%] h-[288px] bg-white rounded-xl p-4 shadow">
+                <div className="w-full md:w-[48%] bg-white rounded-xl p-4 shadow">
                     <div className='flex justify-between'>
                         <h2 className="font-semibold text-sm mb-2">Videollamadas realizadas por los usuarios </h2>
                         <h2 className='text-[#ADADAD] text-sm font-light'>Dato Mensual</h2>

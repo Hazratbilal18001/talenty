@@ -18,7 +18,7 @@ const data = [
 
 function Chart1() {
     return (
-        <div className='font-source text-sm font-normal md:w-[450px] h-[410px]'>
+        <div className='font-source text-sm font-normal md:w-[600px] h-[410px]'>
             <ResponsiveContainer >
                 <LineChart data={data}>
                     <CartesianGrid strokeDasharray="" />
